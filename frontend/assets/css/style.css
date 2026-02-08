@@ -451,3 +451,23 @@ body{
   transform:translateY(-3px);
   box-shadow:0 10px 25px rgba(255,159,28,.35);
 }
+.music-btn{
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  background:#ffb703;
+  color:#111;
+  border:none;
+  padding:12px 16px;
+  border-radius:14px;
+  font-weight:700;
+  cursor:pointer;
+  z-index:9999;
+  box-shadow:0 10px 25px rgba(0,0,0,.35);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+.music-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 35px rgba(0,0,0,.45);
+}
